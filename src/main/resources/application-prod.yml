@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysql-auth:3306/clouderauth?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=CTT&allowPublicKeyRetrieval=true
+    username: root
+    password: clouderauth
+
+webserver:
+  url: http://web-service:8080
+
+socketserver:
+  url: http://web-socket:9010
